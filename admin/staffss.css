@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+#add form{
+    position: absolute;
+    top: 3%;
+    border: 1px solid black;
+    padding-top: 3%;
+    height: 80%;
+    width: 75%;
+}
+#rightform{
+    /* border: 1px solid black; */
+    width: 300px;
+    /* padding: 20px;   */
+    position: absolute;
+    right: 30%;
+    top: 15%;
+}
+#leftform{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+#leftform img{
+    position: absolute;
+    height: 120px;
+    width: 150px;
+}
+/* span{
+    border: 1px solid black;
+    position: absolute;
+    height: 120px;
+    width: 150px; 
+} */
+#add form h3{
+   margin-top: 0%;
+   border-bottom: 0.1px solid #b3be35;
+   color:  #04392a;
+   margin-bottom: 20%;
+   text-align: center;
+}
+#add form input[type="submit"]{
+    width: 350px;
+    height: 35px;
+    border: 0;
+    color: aliceblue;
+    background-color: #04392a;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#add form input[type="text"],input[type="email"],select{
+    margin-bottom: 4%;
+    width: 500px;
+}
+
+#add{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

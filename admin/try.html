@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        img{
+            width:50px;
+            height:50px;
+            position: relative;
+            transform: translate(-50%,-50%);
+            top:10%;
+            left: 50%;
+        }
+        form{
+            margin-bottom: 200px;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+   <form name="victim">
+    <img src="bolt-solid.png">
+    <table>
+        <caption>OUR FORM</caption>
+        <tr><td>NAME:</td><td><input type="text"></td></tr>
+        <tr><td>PHONE NO:</td><td><input type="text"></td></tr>
+        <tr><td>CASE DETAILS</td><td><input type="textarea"></td></tr>
+    </table>
+   </form>
+
+   <form name="culprit">
+    <table>
+        <tr><td>NAME:</td><td><input type="text"></td></tr>
+        <tr><td>GENDER:</td><td>
+            <input type="radio" name="gender" value="male">MALE
+            <input type="radio" name="gender" value="Female">FEMALE
+        </td></tr>
+        <tr><td>TYPES OF VIOLENCE</td><td>
+            <select>
+                <option value="econ">ECONOMIC VIOLENCE</option>
+                <option value="phy">PHYSICAL VIOLENCE</option>
+                <option value="emo">EMOTIONAL VIOLENCE</option>
+                <option value="rel">RELATIONSHIP CONTROL</option>
+                <option value="sex">SEXUAL VIOLENCE</option>
+            </select>
+        </td></tr>
+        <tr><td>SERVICES REQUIRED</td><td>
+            <label><input type="checkbox" value="hiv" name="diseases">HIV</label>
+            <input type="checkbox">PREGNANT
+            <input type="checkbox">MEASLES
+        </td></tr>
+
+        <?php?>
+    </table>
+   </form>
+
+</body>
+</html>
